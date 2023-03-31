@@ -1,0 +1,19 @@
+assembly-versioning-scheme: MajorMinorPatch
+mode: Mainline
+branches:
+  main:
+    regex: ^master$|^main$
+    tag: alpha
+    increment: None
+    is-release-branch: false
+    is-mainline: true
+  tags:
+    regex: ^tags/v.+$
+    tag: ''
+    source-branches: [ 'main' ]
+    increment: None
+    is-release-branch: true
+    is-mainline: true
+ignore:
+  sha: [ ]
+merge-message-formats: { }

@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FAB4B7E4-A5BD-4669-A4E4-72B48404189D}"
+ProjectSection(SolutionItems) = preProject
+	.gitattributes = .gitattributes
+	CodeAnalysis.ruleset = CodeAnalysis.ruleset
+	README.md = README.md
+	Directory.Build.rsp = Directory.Build.rsp
+	.gitignore = .gitignore
+	.editorconfig = .editorconfig
+	NuGet.Config = NuGet.Config
+	Directory.Build.targets = Directory.Build.targets
+	Directory.Build.props = Directory.Build.props
+	.github\workflows\ci.yml = .github\workflows\ci.yml
+	GitVersion.yml = GitVersion.yml
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digillect.Extensions.Amazon.S3", "src\Digillect.Extensions.Amazon.S3\Digillect.Extensions.Amazon.S3.csproj", "{A5319AE0-485C-4043-B3EE-974A3E7A3790}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5319AE0-485C-4043-B3EE-974A3E7A3790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5319AE0-485C-4043-B3EE-974A3E7A3790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5319AE0-485C-4043-B3EE-974A3E7A3790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5319AE0-485C-4043-B3EE-974A3E7A3790}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

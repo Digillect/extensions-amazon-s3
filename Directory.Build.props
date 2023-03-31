@@ -1,0 +1,23 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);app_data\**;**\.git*;**\*~</DefaultItemExcludes>
+    <LangVersion>latest</LangVersion>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)CodeAnalysis.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.7</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Gregory Nickonov</Authors>
+    <Company>Digillect Team</Company>
+    <Product>Digillect Amazon S3 Extensions</Product>
+    <Copyright>Copyright © 2023 Gregory Nickonov</Copyright>
+    <RepositoryUrl>https://github.com/Digillect/extensions-amazon-s3</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>

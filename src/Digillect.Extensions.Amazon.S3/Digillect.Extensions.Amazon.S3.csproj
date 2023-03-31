@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>Digillect extensions for Amazon S3</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.103.39"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.0"/>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0"/>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.0"/>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.0"/>
+  </ItemGroup>
+
+</Project>
