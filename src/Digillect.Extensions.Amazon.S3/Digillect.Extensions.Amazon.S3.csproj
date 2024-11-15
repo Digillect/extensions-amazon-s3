@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AWSSDK.S3" Version="3.7.307.6"/>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.406.2"/>
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="2.1.0"/>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0"/>
     <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.0"/>
